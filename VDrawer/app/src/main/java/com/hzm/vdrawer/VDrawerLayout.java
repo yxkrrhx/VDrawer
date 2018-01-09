@@ -72,7 +72,6 @@ public class VDrawerLayout extends ViewGroup {
         return dragHelper.shouldInterceptTouchEvent(ev);
     }
 
-    //Step3：重写onTouchEvent回调ViewDragHelper中对应的方法.
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         dragHelper.processTouchEvent(event);
